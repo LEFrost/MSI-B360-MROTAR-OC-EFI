@@ -547,7 +547,7 @@
 			<key>ShowPicker</key>
 			<false/>
 			<key>TakeoffDelay</key>
-			<integer>3000</integer>
+			<integer>6500</integer>
 			<key>Timeout</key>
 			<integer>3</integer>
 			<key>UsePicker</key>
@@ -764,7 +764,7 @@
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
-			<string>ASUS</string>
+			<string></string>
 			<key>TimerResolution</key>
 			<integer>50000</integer>
 		</dict>
