@@ -471,6 +471,34 @@
 		<key>Patch</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string>RTC Wake（解决小憩会自动唤醒）</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Base</key>
+				<string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleRTC</string>
+				<key>Limit</key>
+				<real>0</real>
+				<key>Mask</key>
+				<data></data>
+				<key>Find</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>ww==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
