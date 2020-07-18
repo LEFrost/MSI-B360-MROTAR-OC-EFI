@@ -51,7 +51,7 @@
 				<string>SSDT-PMC.aml</string>
 			</dict>
 		</array>
-		<key>Block</key>
+		<key>Delete</key>
 		<array>
 		</array>
 		<key>Patch</key>
@@ -287,7 +287,7 @@
 				<data>DwAAAA==</data>
 			</dict>
 		</dict>
-		<key>Block</key>
+		<key>Delete</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<array>
@@ -740,6 +740,8 @@
 			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
 			<integer>525571</integer>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -790,7 +792,7 @@
 				<data>emgtSGFuczoyNTI=</data>
 			</dict>
 		</dict>
-		<key>Block</key>
+		<key>Delete</key>
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
@@ -867,8 +869,6 @@
 	<dict>
 		<key>Output</key>
 		<dict>
-			<key>DirectGopCacheMode</key>
-			<string></string>
 			<key>ProvideEarlyConsole</key>
 			<false/>
 			<key>ReconnectOnResChange</key>
@@ -962,14 +962,16 @@
 			<false/>
 			<key>ReplaceTabWithSpace</key>
 			<false/>
-			<key>RequestBootVarFallback</key>
-			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>SanitiseClearScreen</key>
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
+			<key>DeduplicateBootOrder</key>
+			<false/>
+			<key>TscSyncTimeout</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
