@@ -704,14 +704,12 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
-			<key>HideSelf</key>
-			<false/>
 			<key>PickerAttributes</key>
 			<integer>17</integer>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -724,6 +722,10 @@
 			<false/>
 			<key>LauncherOption</key>
 			<string>Full</string>
+			<key>PickerAudioAssist</key>
+			<false/>
+			<key>HideAuxiliary</key>
+			<true/>
 		</dict>
 		<key>Debug</key>
 		<dict>
